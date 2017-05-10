@@ -10,6 +10,9 @@
     "test": "mocha ./test/*.spec.js --compilers js:babel-register --require ./test/test_helper.js --recursive"
   },
   "dependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "express": "^4.15.2"
